@@ -1,0 +1,129 @@
+/* ====== Global Style ====== */
+body {
+    background-color: #fbfbfb;
+    font-family: "Roboto", sans-serif;
+    color: #333;
+}
+
+/* ====== Navbar ====== */
+.navbar {
+    background-color: #c6e7ff;
+    border-bottom: 2px solid #b5d6f0;
+}
+
+.navbar-brand img {
+    height: 30px;
+}
+
+.navbar .nav-link {
+    color: #333 !important;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    background-color: #d4f6ff;
+    color: #000 !important;
+}
+
+/* ====== Search Bar ====== */
+.search-bar .form-control {
+    border: 2px solid #c6e7ff;
+    border-radius: 6px 0 0 6px;
+}
+
+.search-bar .btn {
+    background-color: #ffddae;
+    border: none;
+    color: #333;
+    font-weight: 500;
+    border-radius: 0 6px 6px 0;
+}
+
+.search-bar .btn:hover {
+    background-color: #ffc97a;
+}
+
+/* ====== Card Produk ====== */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card a {
+    gap: 5px;
+    color: black;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card a:hover {
+    text-decoration: none;
+}
+
+.card-header {
+    background-color: #d4f6ff;
+    border-bottom: none;
+    border-radius: 12px 12px 0 0;
+}
+
+.card-title {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* ====== Footer ====== */
+footer {
+    background-color: #c6e7ff;
+    color: #333;
+    padding: 20px 0;
+    margin-top: 50px;
+    text-align: center;
+    border-top: 2px solid #b5d6f0;
+}
+
+.footer-link {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: #FBFBFB;
+}
+
+.social-icon {
+    color: #333;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #ffddae;
+}
+
+/* ====== Button Primary ====== */
+.btn-primary {
+    background-color: #c6e7ff;
+    border: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #b5d6f0;
+}
